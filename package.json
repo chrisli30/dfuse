@@ -1,0 +1,28 @@
+{
+  "name": "dfuse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisli30/dfuse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisli30/dfuse/issues"
+  },
+  "homepage": "https://github.com/chrisli30/dfuse#readme",
+  "dependencies": {
+    "@dfuse/client": "^0.2.10",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-ws": "^1.0.18",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.1.2"
+  }
+}
